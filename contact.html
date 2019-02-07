@@ -2,40 +2,43 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>Will Abbot</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="shortcut icon" type="image/png" href="assets/images/Will-Abbot.jpg"/>
 </head>
 
 <body>
     <!--top of the page - links - consistent on all pages-->
 <div class="header">
-    <div class="headertext">
-        <h2 class= name> Will Abbot</h2>
-        <h4 id= button3> Contact</h4>
-        <h4 id= button2> Portfolio</h4>
-        <h4 id= button1> About</h4>
-    </div>
+        <div class="headertext">
+            <h2 class= name> Will Abbot</h2>
+            <div id= "button3"> <a href="contact.html">Contact</a></div>
+            <div id= "button2"> <a href="portfolio.html">Portfolio</a></div>
+            <div id= "button1"> <a href="index.html">About</a></div>
+        </div>
 </div>
 
 <div id="background"></div>
 
+<!-- main body section -->
 <div class="body">
+    <!-- subheader -->
     <h2 class="subheader">Contact</h2>
+    <!-- contact -->
     <div class="contactcategories">Name</div>
     <div class="textbox">
-        <input type="text" size="158">
+        <input class="box" type="text" size="118">
     </div>
-
+    <!-- email -->
     <div class="contactcategories">Email</div>
     <div class="textbox">
-        <input type="text" size="158">
+        <input class="box" type="text" size="118" >
     </div>
-
+        <!-- message -->
     <div class="contactcategories">Message</div>
-    <div class="textbox">
-        <input type="text" size="158">
-    </div>
+    <textarea id="message" name= "messagebox" rows="12" cols="117"></textarea>
+   
+
 
 <!-- submit button -->
     <h4 class="submit">Submit</h4>
@@ -48,3 +51,6 @@
         Copyright &copy;
     
     </div>
+
+
+</body>
