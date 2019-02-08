@@ -29,14 +29,20 @@ body {
     padding: 25px;
 }
 /* submit button on Contact page */
-.submit {
+#submitcontainer {
+    margin: 25px 0px;
+}
+#submit {
     color: white;
     background: #4aaaa5;
-    padding: 10px 20px;
+    padding: 10px 25px;
     width: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    margin-bottom: 0px;
+}
+#submit:hover {
+    border-style: ridge;
+    border-color: #a1a5ba;
 }
 /* attributes for buttons at top of screen */
 a {
@@ -140,6 +146,13 @@ p {
     line-height: 30px;
     color: #777777;
     font-size: large;
+}
+.thanks {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #777777;
+    font-size: large;
+    display: none;
 }
 /* text box for message */
 #message {
