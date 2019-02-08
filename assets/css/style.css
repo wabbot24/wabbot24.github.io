@@ -7,13 +7,10 @@ body {
 .header {
     width: 100%;
     height: 97px;
-
-    /* position: fixed; top: 0px; */
     border-block-end-width: 100%;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
-    /* margin-bottom: 20px; */
 }
 /* container for Header text that keeps buttons within 960px margin */
 .headertext {
@@ -32,7 +29,7 @@ body {
 #submitcontainer {
     margin: 25px 0px;
 }
-#submit {
+.submit {
     color: white;
     background: #4aaaa5;
     padding: 10px 25px;
@@ -40,7 +37,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-#submit:hover {
+.submit:hover {
     border-style: ridge;
     border-color: #a1a5ba;
 }
@@ -111,7 +108,6 @@ a:hover {
     border-color: #dddddd;
     padding: 20px;
     margin-bottom: 80px;
-    /* background-image: url(white-waves.png); */
 }
 /* container for text boxes on contact page - used for spacing */
 .textbox {
@@ -135,7 +131,6 @@ a:hover {
 }
 /* text of bio in the about section body */
 p {
-    /* margin-left: 170px; */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     color: #777777;
@@ -209,8 +204,6 @@ p {
     height: 40px;
     margin-top: 180px;
     margin-left: 105px;
-    /* margin-bottom: 30px; */
-    /* padding-top: -30px; */
     padding-bottom: 20px;
 }
 
