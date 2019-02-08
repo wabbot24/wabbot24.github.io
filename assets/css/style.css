@@ -31,6 +31,7 @@ body {
 }
 .submit {
     color: white;
+    text-decoration: none;
     background: #4aaaa5;
     padding: 10px 25px;
     width: 50px;
@@ -42,13 +43,13 @@ body {
     border-color: #a1a5ba;
 }
 /* attributes for buttons at top of screen */
-a {
+.buttons {
     text-decoration: none;
     color: #a1a5ba;
     padding: 5px;
 }
 /* hover effect for above buttons */
-a:hover {
+.buttons:hover {
     color:  white;
     background-color: #4aaaa5;
 }
